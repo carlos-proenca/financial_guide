@@ -1,0 +1,30 @@
+.mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mat-icon {
+  cursor: pointer;
+  margin-right: 1vw;
+}
+
+.logo {
+  margin-left: 16px;
+  height: 40px;
+}
+
+.header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header div{
+  display: flex;
+  align-items: center;
+}
+
+.mat-menu-item{
+  font-size: 0.8rem;
+}
